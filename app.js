@@ -58,6 +58,8 @@ document.addEventListener('keydown',()=>{
     if(event.key ==='Enter'){
 
 body.style.backgroundColor = colorChanged()
+colorText.innerText =  newColor
+input.value = newColor
    
     }
 
