@@ -24,7 +24,9 @@ const colorChanged = ()=>{
 }
 
 window.addEventListener('load',()=>{
-    body.style.backgroundColor = colorChanged()
+    const newColor = body.style.backgroundColor = colorChanged()
+    colorText.innerText =  newColor
+    input.value = newColor
 })
 
 
@@ -57,9 +59,9 @@ document.addEventListener('keydown',()=>{
 
     if(event.key === 'Enter' || event.keyCode === 13){
 
-body.style.backgroundColor = colorChanged()
-colorText.innerText =  newColor
-input.value = newColor
+        const newColor = body.style.backgroundColor = colorChanged()
+        colorText.innerText =  newColor
+        input.value = newColor
    
     }
 
