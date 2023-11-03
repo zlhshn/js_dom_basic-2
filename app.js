@@ -55,7 +55,7 @@ input.addEventListener('input',()=>{
 
 document.addEventListener('keydown',()=>{
 
-    if(Event.key ==='Enter'){
+    if(event.key ==='Enter'){
 
 body.style.backgroundColor = colorChanged()
    
@@ -63,9 +63,9 @@ body.style.backgroundColor = colorChanged()
 
 })
 
-copy.addEventListener('click',()=>{
+// copy.addEventListener('click',()=>{
 
-   navigator.clipboard.writeText(colorText.innerText)
+//    navigator.clipboard.writeText(colorText.innerText)
 
-   navigator.clipboard.readText(colorText.innerText)
-})
+// //    navigator.clipboard.readText(colorText.innerText)
+// })
