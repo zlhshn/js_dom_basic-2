@@ -55,7 +55,7 @@ input.addEventListener('input',()=>{
 
 document.addEventListener('keydown',()=>{
 
-    if(event.key ==='Enter'){
+    if(event.key === 'Enter' || event.keyCode === 13){
 
 body.style.backgroundColor = colorChanged()
    
