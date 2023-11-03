@@ -63,9 +63,9 @@ body.style.backgroundColor = colorChanged()
 
 })
 
-// copy.addEventListener('click',()=>{
+copy.addEventListener('click',()=>{
 
-//    navigator.clipboard.writeText(colorText.innerText)
+   navigator.clipboard.writeText(colorText.innerText)
 
-// //    navigator.clipboard.readText(colorText.innerText)
-// })
+   navigator.clipboard.readText(colorText.innerText)
+})
